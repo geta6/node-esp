@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Express Town
+  p Sign in to express town
+
+  p#error= req.flash('error')
+
+  form(method='POST', action='/signin')
+    input(type='text', name='username')
+    input(type='password', name='password')
+    input(type='submit')

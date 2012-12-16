@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Express Town
+  p Welcome to Express Town
+  unless req.isAuthenticated()
+    p: a(href='/signin') Sign in

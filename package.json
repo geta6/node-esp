@@ -1,0 +1,22 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee cup"
+  },
+  "dependencies": {
+    "express": "*",
+    "connect-flash": "*",
+    "connect-assets": "*",
+    "connect-mongo": "*",
+    "sequelize": "*",
+    "consolable": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "coffee-script": "*",
+    "stylus": "*",
+    "nib": "*",
+    "jade": "*"
+  }
+}
