@@ -11,6 +11,8 @@ Express + Sequelize + Passport
 
 DB情報に関しては`config/`以下を参照してください。
 
+認証機構とかいらねぇよヽ(\`Д´)ﾉ という方は`git checkout light`してください。
+
 ルーターが肥大化したら適宜外部化してください。
 
 
